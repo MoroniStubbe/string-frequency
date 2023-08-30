@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <title>string frequency</title>
+    <script src="CommonStrings.js"></script>
+    <script src="gui.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <textarea id="input"></textarea>
+
+    <div id="combinationLengthContainer">
+        <span>Combination length: </span><input id="combinationLength" type="text">
+        <span>Max item count: </span><input id="maxItemCount" type="text">
+    </div>
+    <button id="getCommonStringsButton" onclick="getCommonStrings()">Get Common Strings</button>
+
+    <table id="commonStringsTable">
+        <thead>
+            <th>rank</th>
+            <th>word</th>
+            <th>count</th>
+        </thead>
+        <tbody id="commonStringsTableBody">
+
+        </tbody>
+    </table>
+</body>
